@@ -10,7 +10,7 @@ public class AverageOfArray {
 
         System.out.print("Please enter ten numbers: ");
         for(int i = 0; i < 10; i++){
-            testArray[i] = input.nextInt();
+            testArray[i] = input.nextDouble();
         }
 
         System.out.println("The average is " + average(testArray));
@@ -33,7 +33,7 @@ public class AverageOfArray {
         for(double val: arr) {
             sum += val;
         }
-        ave = sum / 10;
+        ave = sum / 10.0;
 
         return ave;
     }
