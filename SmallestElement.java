@@ -20,13 +20,11 @@ public class SmallestElement {
         double minimum = arr[0];
 
         for (double val: arr) {
-            System.out.println(val);
             if (val < minimum) {
                 minimum = val;
             }
         }
 
         return minimum;
-
     }
 }
